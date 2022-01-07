@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderas</title>
+    <!-- Style -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .flag-container{
+            width: 600px;
+            height: 440px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .bandera{
+            width: 600px;
+            height: 400px;
+            border: 1px solid black;
+        }
+        p{
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: sans-serif;
+        }
+        /* España */
+        .espana-red{
+            width: 100%;
+            height: 100px;
+            background-color: red;
+        }
+        .espana-yellow{
+            width: 100%;
+            height: 200px;
+            background-color: yellow;
+        }
+        /* DINAMARCA */
+        .dinamarc-small{
+            background-color: red;
+            width: 175px;
+            height: 175px;
+            display: inline-block;
+
+            margin-right: 45px;
+        }
+        .dinamarc-big{
+            background-color: red;
+            width: 374px;
+            height: 175px;
+            display: inline-block;
+            
+        }
+            .margin-bottom{
+            margin-bottom: 45px; 
+        }
+        /* Emiratos Árabes */
+        .emiratos-y{
+            width: 175px;
+            height: 398px;
+            background-color: red;
+            float: left;
+        }
+        .emiratos-x{
+            width: 423px;
+            height: 133px;
+            float: left;
+        }
+        .gren-emiratos{
+            background-color: green;
+        }
+        .black-emiratos{
+            background-color: black;
+        }
+        /*JAPON*/
+        .circle-red{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            top: 25%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- España -->
+    <div class="flag-container">
+        <section class="bandera">
+            <div class="espana-red"></div>
+            <div class="espana-yellow"></div>
+            <div class="espana-red"></div>
+        </section>
+        <p>España</p>
+    </div>
+    <!-- Dinamarca -->
+    <div class="flag-container">
+        <section class="bandera">
+            <div class="dinamarc-small margin-bottom"></div>
+            <div class="dinamarc-big margin-bottom" ></div>
+            <div class="dinamarc-small"></div>
+            <div class="dinamarc-big"></div>
+        </section>
+        <p>Dinamarca</p>
+    </div>
+    <!-- Emiratos Árabes -->
+    <div class="flag-container">
+        <section class="bandera">
+            <div class="emiratos-y"></div>
+            <div class="emiratos-x gren-emiratos"></div>
+            <div class="emiratos-x"></div>
+            <div class="emiratos-x black-emiratos"></div>
+        </section>
+        <p>Emiratos Árabes</p>
+    </div>
+    <!-- España -->
+    <div class="flag-container">
+        <section class="bandera">
+            <div class="circle-red"></div>
+        </section>
+        <p>Japón</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <!-- Styles -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .main {
+        width: 980px;
+        height: auto;
+      }
+      .header {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+      }
+      .head__title {
+        padding-top: 0.5rem;
+      }
+      .nav {
+        background-color: rgb(233, 233, 233);
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        float: left;
+      }
+      .nav__title {
+        font-size: 2rem;
+      }
+      .section {
+        height: 150px;
+      }
+      .footer {
+        background-color: #ccc;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        clear: left;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1 class="head__title">Titulo de la Pagina</h1>
+      </header>
+      <nav class="nav">
+        <h2 class="nav__title">Menú</h2>
+        <ul>
+          <li><a href="#">Item-1</a></li>
+          <li><a href="#">Item-2</a></li>
+          <li><a href="#">Item-3</a></li>
+          <li><a href="#">Item-4</a></li>
+          <li><a href="#">Item-5</a></li>
+        </ul>
+      </nav>
+      <section class="section">
+        <h2 class="section__title">Sub Titulo</h2>
+        <p class="section__text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa laborum
+          sapiente similique autem nisi, quas quis veritatis rem eligendi
+          officiis a, asperiores assumenda officia neque, id fugit natus
+          repellat repudiandae aspernatur magni vel adipisci delectus quos! Ad,
+          incidunt odio quos, aspernatur quas, voluptatem commodi tenetur
+          consequuntur tempora reiciendis dolorum vero.
+        </p>
+      </section>
+      <footer class="footer">
+        <span class="footer__title">&#169; Todos los derechos reservados</span>
+      </footer>
+    </main>
+  </body>
+</html>
